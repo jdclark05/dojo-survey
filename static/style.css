@@ -1,0 +1,41 @@
+.form > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #222;
+}
+
+.form {
+    background-color: whitesmoke;
+    margin: auto;
+    width: 50%;
+}
+
+#comments {
+    width: 40%;
+}
+
+label {
+    margin-top: 20px;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 25px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-header {
+    width: 100%;
+    border-bottom: 2px solid #222;
+    margin: -10px;
+}
